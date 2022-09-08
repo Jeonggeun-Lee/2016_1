@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\administrator\documents\상명대\2016년1학기\기초프로그래밍\기말과제-2016-06-11\기말과제201415060이정근\bluemarblever02\</FILEPATH>
+      <FILENAME>bluemarblever02.c</FILENAME>
+      <LINE>72</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6292</DEFECTCODE>
+    <DESCRIPTION>for 루프가 잘못 정의되었습니다.  최대값부터 위로 계산됩니다.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>67</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\administrator\documents\상명대\2016년1학기\기초프로그래밍\기말과제-2016-06-11\기말과제201415060이정근\bluemarblever02\</FILEPATH>
+      <FILENAME>bluemarblever02.c</FILENAME>
+      <LINE>97</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>반환 값이 무시되었습니다. 'scanf'.</DESCRIPTION>
+    <FUNCTION>invest</FUNCTION>
+    <DECORATED>invest</DECORATED>
+    <FUNCLINE>90</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\administrator\documents\상명대\2016년1학기\기초프로그래밍\기말과제-2016-06-11\기말과제201415060이정근\bluemarblever02\</FILEPATH>
+      <FILENAME>bluemarblever02.c</FILENAME>
+      <LINE>102</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>반환 값이 무시되었습니다. 'scanf'.</DESCRIPTION>
+    <FUNCTION>invest</FUNCTION>
+    <DECORATED>invest</DECORATED>
+    <FUNCLINE>90</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\administrator\documents\상명대\2016년1학기\기초프로그래밍\기말과제-2016-06-11\기말과제201415060이정근\bluemarblever02\</FILEPATH>
+      <FILENAME>bluemarblever02.c</FILENAME>
+      <LINE>118</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>반환 값이 무시되었습니다. 'scanf'.</DESCRIPTION>
+    <FUNCTION>acquisite</FUNCTION>
+    <DECORATED>acquisite</DECORATED>
+    <FUNCLINE>112</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\administrator\documents\상명대\2016년1학기\기초프로그래밍\기말과제-2016-06-11\기말과제201415060이정근\bluemarblever02\</FILEPATH>
+      <FILENAME>bluemarblever02.c</FILENAME>
+      <LINE>117</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>'position'에서 잘못된 데이터를 읽고 있습니다.  읽기 가능한 크기는 '8'바이트인데 실제로는 'p'바이트만 읽을 수 있습니다.</DESCRIPTION>
+    <FUNCTION>acquisite</FUNCTION>
+    <DECORATED>acquisite</DECORATED>
+    <FUNCLINE>112</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\administrator\documents\상명대\2016년1학기\기초프로그래밍\기말과제-2016-06-11\기말과제201415060이정근\bluemarblever02\</FILEPATH>
+        <FILENAME>bluemarblever02.c</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\administrator\documents\상명대\2016년1학기\기초프로그래밍\기말과제-2016-06-11\기말과제201415060이정근\bluemarblever02\</FILEPATH>
+        <FILENAME>bluemarblever02.c</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>29</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>분기</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>이 분기 시작, ('&lt;분기 조건&gt;' 가정)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\administrator\documents\상명대\2016년1학기\기초프로그래밍\기말과제-2016-06-11\기말과제201415060이정근\bluemarblever02\</FILEPATH>
+        <FILENAME>bluemarblever02.c</FILENAME>
+        <LINE>117</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>선언</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'p'은(는) 'printf'(c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h:944에서 선언됨)에 대한 In/Out 인수입니다.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\administrator\documents\상명대\2016년1학기\기초프로그래밍\기말과제-2016-06-11\기말과제201415060이정근\bluemarblever02\</FILEPATH>
+        <FILENAME>bluemarblever02.c</FILENAME>
+        <LINE>117</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>사용법</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'position[-1]'에서 읽기가 잘못됨, (읽기 가능한 범위는 0에서 1 사이임)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\administrator\documents\상명대\2016년1학기\기초프로그래밍\기말과제-2016-06-11\기말과제201415060이정근\bluemarblever02\</FILEPATH>
+      <FILENAME>bluemarblever02.c</FILENAME>
+      <LINE>137</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>반환 값이 무시되었습니다. 'scanf'.</DESCRIPTION>
+    <FUNCTION>buy</FUNCTION>
+    <DECORATED>buy</DECORATED>
+    <FUNCLINE>131</FUNCLINE>
+    <PATH />
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\administrator\documents\상명대\2016년1학기\기초프로그래밍\기말과제-2016-06-11\기말과제201415060이정근\bluemarblever02\</FILEPATH>
+      <FILENAME>bluemarblever02.c</FILENAME>
+      <LINE>153</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>'owner'에서 잘못된 데이터를 읽고 있습니다.  읽기 가능한 크기는 '136'바이트인데 실제로는 'p'바이트만 읽을 수 있습니다.</DESCRIPTION>
+    <FUNCTION>toll</FUNCTION>
+    <DECORATED>toll</DECORATED>
+    <FUNCLINE>149</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\administrator\documents\상명대\2016년1학기\기초프로그래밍\기말과제-2016-06-11\기말과제201415060이정근\bluemarblever02\</FILEPATH>
+        <FILENAME>bluemarblever02.c</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>31</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>분기</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>이 분기 시작, ('&lt;분기 조건&gt;' 가정)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\administrator\documents\상명대\2016년1학기\기초프로그래밍\기말과제-2016-06-11\기말과제201415060이정근\bluemarblever02\</FILEPATH>
+        <FILENAME>bluemarblever02.c</FILENAME>
+        <LINE>153</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>선언</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'p'은(는) 'printf'(c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h:944에서 선언됨)에 대한 In/Out 인수입니다.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\administrator\documents\상명대\2016년1학기\기초프로그래밍\기말과제-2016-06-11\기말과제201415060이정근\bluemarblever02\</FILEPATH>
+        <FILENAME>bluemarblever02.c</FILENAME>
+        <LINE>153</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>사용법</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'owner[-1]'에서 읽기가 잘못됨, (읽기 가능한 범위는 0에서 33 사이임)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\administrator\documents\상명대\2016년1학기\기초프로그래밍\기말과제-2016-06-11\기말과제201415060이정근\bluemarblever02\</FILEPATH>
+      <FILENAME>bluemarblever02.c</FILENAME>
+      <LINE>154</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>'currency'에서 잘못된 데이터를 읽고 있습니다.  읽기 가능한 크기는 '8'바이트인데 실제로는 'p'바이트만 읽을 수 있습니다.</DESCRIPTION>
+    <FUNCTION>toll</FUNCTION>
+    <DECORATED>toll</DECORATED>
+    <FUNCLINE>149</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\administrator\documents\상명대\2016년1학기\기초프로그래밍\기말과제-2016-06-11\기말과제201415060이정근\bluemarblever02\</FILEPATH>
+        <FILENAME>bluemarblever02.c</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>31</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>분기</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>이 분기 시작, ('&lt;분기 조건&gt;' 가정)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\administrator\documents\상명대\2016년1학기\기초프로그래밍\기말과제-2016-06-11\기말과제201415060이정근\bluemarblever02\</FILEPATH>
+        <FILENAME>bluemarblever02.c</FILENAME>
+        <LINE>153</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>선언</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'p'은(는) 'printf'(c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h:944에서 선언됨)에 대한 In/Out 인수입니다.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\administrator\documents\상명대\2016년1학기\기초프로그래밍\기말과제-2016-06-11\기말과제201415060이정근\bluemarblever02\</FILEPATH>
+        <FILENAME>bluemarblever02.c</FILENAME>
+        <LINE>154</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>사용법</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'currency[-1]'에서 읽기가 잘못됨, (읽기 가능한 범위는 0에서 1 사이임)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\administrator\documents\상명대\2016년1학기\기초프로그래밍\기말과제-2016-06-11\기말과제201415060이정근\bluemarblever02\</FILEPATH>
+      <FILENAME>bluemarblever02.c</FILENAME>
+      <LINE>191</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>반환 값이 무시되었습니다. 'scanf'.</DESCRIPTION>
+    <FUNCTION>dice</FUNCTION>
+    <DECORATED>dice</DECORATED>
+    <FUNCLINE>185</FUNCLINE>
+    <PATH />
+  </DEFECT></DEFECTS>
